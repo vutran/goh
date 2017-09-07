@@ -1,0 +1,5 @@
+goh() {
+	if [ -d $GOPATH ]; then
+		cd "$($GOPATH/bin/goh $@)"
+	fi
+}
